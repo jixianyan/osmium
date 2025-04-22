@@ -89,7 +89,7 @@
         @apply whitespace-nowrap overflow-hidden;
 
         @at-root .site-description {
-          @apply before:content-[',_'] font-normal opacity-0;
+          @apply before:content-[] font-normal opacity-0;
 
           @at-root .page-title ~ * & {
             @apply hidden;
